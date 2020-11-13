@@ -11,4 +11,11 @@ public class HomeController {
 	public String home() {
 		return "Hello World to deploy";
 	}
+	
+	
+	@GetMapping("list")
+	public String home2() {
+		return "Hello World to deploy Git Hub";
+	}
+	
 }
